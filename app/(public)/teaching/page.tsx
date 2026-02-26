@@ -96,10 +96,7 @@ const TeachingPage = () => {
             </h2>
             <p className="text-lg text-stone-600 leading-relaxed italic">
               "I am currently teaching{" "}
-              <strong className="text-stone-900">
-                Mathematics from Standard IX to XII
-              </strong>{" "}
-              at
+              <strong className="text-stone-900">Mathematics</strong> at
               <strong> Yangchenphug Higher Secondary School</strong>. My
               philosophy is centered on building a strong foundation and
               fostering curiosity through inquiry-based learning."

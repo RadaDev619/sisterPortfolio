@@ -19,11 +19,11 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-stone-100 shadow-sm">
       <nav className="container mx-auto px-6 h-18 flex items-center justify-between">
         {/* --- LOGO SECTION --- */}
-        <Link href="/" className="flex items-center h-full py-2">
+        <Link href="/" className="flex items-center h-full pt-4 md:pt-6">
           <img
             src="/logo.png"
             alt="Sonam Zangmo Logo"
-            className="h-30 md:h-32 w-auto object-contain hover:opacity-80 transition-opacity"
+            className="h-32 md:h-40 w-auto object-contain hover:opacity-80 transition-opacity"
           />
         </Link>
 

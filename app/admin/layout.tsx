@@ -10,6 +10,7 @@ import {
   Phone,
   Building2,
 } from "lucide-react";
+import { SiTiktok, SiYoutube } from "react-icons/si"; // Added TikTok & YouTube
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -63,17 +64,35 @@ export default function RootLayout({
                   Connect With Me
                 </h3>
                 <div className="flex md:justify-end gap-5">
-                  <a href="#" className="hover:text-blue-400 transition">
+                  <a
+                    href="https://www.facebook.com/sonam.adap#"
+                    className="hover:text-blue-400 transition"
+                  >
                     <Facebook />
                   </a>
-                  <a href="#" className="hover:text-blue-400 transition">
-                    <Twitter />
+                  <a
+                    href="https://youtube.com/@adapsom7009"
+                    className="hover:text-blue-400 transition"
+                  >
+                    <SiYoutube className="w-6 h-6" />
                   </a>
-                  <a href="#" className="hover:text-blue-400 transition">
+                  <a
+                    href="https://www.linkedin.com/in/sonam-zangmo-50b52b169/"
+                    className="hover:text-blue-400 transition"
+                  >
                     <Linkedin />
                   </a>
-                  <a href="#" className="hover:text-blue-400 transition">
+                  <a
+                    href="https://www.instagram.com/somzam2021/"
+                    className="hover:text-blue-400 transition"
+                  >
                     <Instagram />
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@adap_som"
+                    className="hover:text-blue-400 transition"
+                  >
+                    <SiTiktok className="w-6 h-6" />
                   </a>
                 </div>
                 <Link

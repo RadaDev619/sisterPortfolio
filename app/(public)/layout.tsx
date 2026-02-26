@@ -3,13 +3,13 @@ import { Inter } from "next/font/google";
 import Navbar from "./Navbar";
 import {
   Facebook,
-  Youtube,
   Linkedin,
   Instagram,
   Mail,
   Phone,
   Building2,
 } from "lucide-react";
+import { SiTiktok, SiYoutube } from "react-icons/si"; // Added TikTok & YouTube
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -70,10 +70,10 @@ export default function RootLayout({
                     <Facebook />
                   </a>
                   <a
-                    href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2F%40adapsom7009%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExdWZGVXVjV3F1RHFnYkdqbHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR6KDF8WbD8wlYCOES2BWMpEzZreAXRbzwTbclISLrJynKAcqzcZZB-61cAvOg_aem_DKF9tYpTEBve3zuo_UiNNA&h=AT7XfW_Ta68MKlYKIlysN4r_vxvIvh9YX09VJJlLwYliPk0uWEy2-bpmp98OXibKWDgzMCwr34fpoQK5kCmg6Be7G-EkGPx4PcJj2O6EVv8fqXjNbSqs78gKbTj_JjnAK6Gh"
+                    href="https://youtube.com/@adapsom7009"
                     className="hover:text-blue-400 transition"
                   >
-                    <Youtube />
+                    <SiYoutube className="w-6 h-6" />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/sonam-zangmo-50b52b169/"
@@ -86,6 +86,12 @@ export default function RootLayout({
                     className="hover:text-blue-400 transition"
                   >
                     <Instagram />
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@adap_som"
+                    className="hover:text-blue-400 transition"
+                  >
+                    <SiTiktok className="w-6 h-6" />
                   </a>
                 </div>
                 <Link
