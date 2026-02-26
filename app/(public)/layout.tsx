@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import Navbar from "./Navbar";
 import {
   Facebook,
-  Twitter,
+  Youtube,
   Linkedin,
   Instagram,
   Mail,
@@ -63,16 +63,28 @@ export default function RootLayout({
                   Connect With Me
                 </h3>
                 <div className="flex md:justify-end gap-5">
-                  <a href="#" className="hover:text-blue-400 transition">
+                  <a
+                    href="https://www.facebook.com/sonam.adap#"
+                    className="hover:text-blue-400 transition"
+                  >
                     <Facebook />
                   </a>
-                  <a href="#" className="hover:text-blue-400 transition">
-                    <Twitter />
+                  <a
+                    href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2F%40adapsom7009%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExdWZGVXVjV3F1RHFnYkdqbHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR6KDF8WbD8wlYCOES2BWMpEzZreAXRbzwTbclISLrJynKAcqzcZZB-61cAvOg_aem_DKF9tYpTEBve3zuo_UiNNA&h=AT7XfW_Ta68MKlYKIlysN4r_vxvIvh9YX09VJJlLwYliPk0uWEy2-bpmp98OXibKWDgzMCwr34fpoQK5kCmg6Be7G-EkGPx4PcJj2O6EVv8fqXjNbSqs78gKbTj_JjnAK6Gh"
+                    className="hover:text-blue-400 transition"
+                  >
+                    <Youtube />
                   </a>
-                  <a href="#" className="hover:text-blue-400 transition">
+                  <a
+                    href="https://www.linkedin.com/in/sonam-zangmo-50b52b169/"
+                    className="hover:text-blue-400 transition"
+                  >
                     <Linkedin />
                   </a>
-                  <a href="#" className="hover:text-blue-400 transition">
+                  <a
+                    href="https://www.instagram.com/somzam2021/"
+                    className="hover:text-blue-400 transition"
+                  >
                     <Instagram />
                   </a>
                 </div>
