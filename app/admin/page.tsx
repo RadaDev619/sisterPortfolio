@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import {
   PlusCircle,
   FileText,
@@ -23,7 +24,7 @@ import { getTotalTeachingClassesAction } from "@/actions/teaching-actions";
 type Stat = {
   label: string;
   count: number;
-  icon: JSX.Element;
+  icon: React.ReactNode;
   color: string;
   bgColor: string;
 };

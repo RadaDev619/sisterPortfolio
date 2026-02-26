@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Navbar from "./Navbar.tsx";
+import Navbar from "./Navbar";
 import {
   Facebook,
   Twitter,

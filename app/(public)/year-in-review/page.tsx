@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import {
@@ -29,7 +30,7 @@ type Milestone = {
   title: string;
   month: string;
   description: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
 };
 
 type YearData = {
